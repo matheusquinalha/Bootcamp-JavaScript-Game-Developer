@@ -1,3 +1,3 @@
 # Bootcamp JavaScript Game Developer 
 
-##Plataforma: Digital Innovation One
+## Plataforma: Digital Innovation One
