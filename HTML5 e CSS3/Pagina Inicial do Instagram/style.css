@@ -56,6 +56,17 @@ body {
     border: 1px solid lightgray;
 }
 
+.group-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.3rem 0;
+    
+}
+
 .group:nth-child(1){
     min-height: 19rem;
 }
@@ -116,8 +127,8 @@ body {
 }
 
 .app-download{
-    height: 3rem;
-    width: 20rem;
+    height: 3.1rem;
+    width: 12rem;
     background-size: cover;
 }
 
