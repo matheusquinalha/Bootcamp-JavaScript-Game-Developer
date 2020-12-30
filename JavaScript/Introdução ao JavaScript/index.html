@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha Pagina</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="./js/main.js"></script>
+    </head>
+    <body onload="load()"> <!-- O ONLOAD serve para quando, nesse caso, a pagina for carregada trazer a função LOAD-->
+        <h1>Minha Pagina</h1>
+        <button type="button" onclick="clicou()">Clique Aqui</button>
+        <p id="agradecimento" onclick="redirecionar()"></p>
+        <p id="passaromouse" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o Mouse Aqui</p>
+        <!-- Se houver 02 ou mais elementos, que vai realizará o mesmo comando, é necessário preencher, dentro dos parenteses com o THIS, para que um elemento não altere o outro-->
+        <p id="passaromouse" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o Mouse Aqui</p> 
+
+        <select onchange="mudar(this)">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
+    </body>
+</html>
