@@ -142,3 +142,55 @@ console.log(it.next());//Traz o Hello
 console.log(it.next());//Traz o From
 console.log(it.next());//Traz o Functions!
 console.log(it.next());//Indica que finalizou
+
+//callback
+
+    //promises
+    const doSomethingPromise = new Promise((resolved,reject) => {
+        setTimeout(function(){
+            //did something
+            resolve ('Fisrt Data');
+        },1000);
+    })
+
+    
+    const doOtherSomethingPromise = new Promise((resolved,reject) => {
+        setTimeout(function(){
+            //did something
+            resolve ('Second Data');
+        },1000);
+    })
+
+//Pending -> Pendente
+//Fulfield -> Executada com sucesso
+//Reject -> Rejeitada
+
+//FETCH
+
+fecth('/data.json')
+.then(responseStream => responseStream.json())
+.then(data => {
+    console.log(data);
+})
+.catch (err => {
+    console.log('Erro: ',err);
+})
+
+//ES7 - Async / Await
+
+const simpleFunc = async() =>{
+    return 12345;
+}
+console.log(simpleFunc());
+
+//EventEmitter
+
+const EventEmitter = require('events');
+const emitter = new EventEmitter ();
+emitter.on('Usser Logged ', data =>{
+    console.log(data);
+});
+
+emitter.emit('User Logged ', {user: 'Matheus Quinalha'});
+
+//************************************************************************/

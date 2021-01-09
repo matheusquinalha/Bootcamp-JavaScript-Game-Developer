@@ -1,0 +1,32 @@
+//TESTES
+
+##Testes Automatizados
+
+* Testes Unitários; - Funçoes, Métodos, etc...
+* Testes Integrados; - Entre componentes
+* Testes Funcionais; - Do inicio ao fim - Usuarios
+
+
+##Testes Manuais e Automatizados
+
+* Testes Usabilidade;
+* Testes de Aceitação de usuário
+* Protótipos
+* Testes Funcionais
+* Exemplos
+* Alpha e Beta
+* Mais....
+
+
+***TDD - Test Driven Development (Teste Direcionado ao Desenvolvimento)
+
+
+Desenvolvimento do Teste antes de finalizar o desenvolvimento do programa
+
+
+**BDD - Behavior Driven Development (Desenvolvimento Orientado a Comportamento)
+
+Integra a Linguagem de Programação à Regra de Negócio
+
+//Mocha, Chai, Sinon
+-> Apenas Aulas Visuais
